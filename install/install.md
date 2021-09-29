@@ -12,6 +12,13 @@
 1. 更新apt镜像: 执行`apt update`
 2. 安装haskell环境: 执行`apt install -y ghc haskell-stack`
 
+#### 第三步: 测试
+
+执行: `echo "main = do {putStrLn \"helloworld\"}" >> test.hs && ghc -o test test.hs && echo -e "\033[31m 执行
+结果: \033[0m"  && ./test && rm test test.hs test.hi test.o`
+
+看到helloworld输出就代表haskell环境可以使用
+
 ## VSCode调试配置
 
 #### 第一步: 安装VSCode 
