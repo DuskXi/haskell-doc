@@ -81,8 +81,8 @@
 
 应该执行以下步骤（root权限下）
 
-`echo "export PATH=\"~/.local/bin/:$PATH\""`
+`echo "export PATH=\"~/.local/bin/:$PATH\"" >> /etc/profile`
 
-`echo "export PATH=\"~/.stack/bin/:$PATH\""`
+`echo "export PATH=\"~/.stack/bin/:$PATH\"" >> /etc/profile`
 
 重启
