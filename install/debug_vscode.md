@@ -1,4 +1,8 @@
 ## 如何在VSCode中调试Haskell
+### 前提
+
+确保已完成 ![Install](./install.md)中的步骤
+
 ---
 1. 在左边栏中的资源管理器中右键创建文件: *helloworld.hs*
 2. 在上方找到*运行* > *添加配置*
