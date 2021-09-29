@@ -85,4 +85,6 @@
 
 `echo "export PATH=\"~/.stack/bin/:$PATH\"" >> /etc/profile`
 
-重启
+`source /etc/profile`
+
+重启VSCode
