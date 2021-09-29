@@ -93,4 +93,4 @@
 
 ### 在VSCode中调试Haskell单文件
 
-![md](./debug_vscode)
+![debug_vscode](./debug_vscode.md)
