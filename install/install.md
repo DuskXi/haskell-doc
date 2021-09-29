@@ -74,3 +74,15 @@
 
 1. `cabal update`
 2. `cabal install ghci-dap haskell-debug-adapter-0.0.34.0`
+
+#### 最后关于path环境
+
+由于有可能因为安装软件的地方没有加入环境导致bug
+
+应该执行以下步骤（root权限下）
+
+`echo "export PATH=\"~/.local/bin/:$PATH\""`
+
+`echo "export PATH=\"~/.stack/bin/:$PATH\""`
+
+重启
