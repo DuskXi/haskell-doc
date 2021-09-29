@@ -88,3 +88,9 @@
 `source /etc/profile` (或者重启电脑)
 
 重启VSCode
+
+# 附录
+
+### 在VSCode中调试Haskell单文件
+
+![md](./debug_vscode)
