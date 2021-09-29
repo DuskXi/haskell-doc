@@ -49,10 +49,10 @@
 
 #### 第五步: 
 
-##### 先提权
+##### 确认权限 
 
-1. 执行`sudo su root`
-2. 输入密码回车
+1. 执行`id`
+2. 如果显示为0代表是最高权限，建议输入exit退到普通用户权限进行安装(因为VSCode连接wsl是以普通权限进入)
 
 然后使用*stack*或者*cabal*进行安装
 
@@ -81,10 +81,10 @@
 
 应该执行以下步骤（root权限下）
 
-`echo "export PATH=\"~/.local/bin/:$PATH\"" >> /etc/profile`
+`echo "export PATH=\"$HOME/.local/bin/:$PATH\"" >> /etc/profile`
 
-`echo "export PATH=\"~/.stack/bin/:$PATH\"" >> /etc/profile`
+`echo "export PATH=\"$HOME/.stack/bin/:$PATH\"" >> /etc/profile`
 
-`source /etc/profile`
+`source /etc/profile` (或者重启电脑)
 
 重启VSCode
