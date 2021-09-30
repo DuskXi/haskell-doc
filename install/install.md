@@ -73,7 +73,7 @@
 ##### 使用cabal安装调试器（如果stack没有出错就不用走这边）
 
 1. `cabal update`
-2. `cabal install ghci-dap haskell-debug-adapter-0.0.34.0`
+2. `cabal install --global ghci-dap haskell-debug-adapter-0.0.34.0`
 
 #### 最后关于path环境
 
